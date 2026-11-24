@@ -1,4 +1,0 @@
-include LICENSE README.md CITATION.cff requirements-reproduce.txt VERIFICATION.md
-recursive-include examples *.py *.json
-recursive-include tests *.py
-recursive-include benchmarks *.py *.json *.md
