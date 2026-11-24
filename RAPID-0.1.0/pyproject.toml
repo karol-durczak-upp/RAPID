@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rapid-wear-audit"
+version = "0.1.0"
+description = "Contrast estimability audits for linear measurement designs"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Karol Durczak", email = "karol.durczak@up.poznan.pl"}, {name = "Jan Bocianowski"}, {name = "Maciej Zaborowicz"}]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
